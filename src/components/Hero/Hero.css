@@ -1,0 +1,11 @@
+
+.hero-cont {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-card-title {
+    font-size: 3rem;
+}

@@ -1,0 +1,7 @@
+.work-cont {
+    padding: 5rem 0;
+}
+.work-cont .container  {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
