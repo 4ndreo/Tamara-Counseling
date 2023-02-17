@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 
 export default function Footer() {
   return (
-    <Container>
+    <Container id="contacto">
       <h2>Contacto</h2>
       <ul>
         <li>Teléfono</li>

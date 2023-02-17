@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Satoshi-Bold';
   color: var(--main-blue);
@@ -12,4 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 .h2-title {
   font-family: 'Satoshi-Bold';
   font-size: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

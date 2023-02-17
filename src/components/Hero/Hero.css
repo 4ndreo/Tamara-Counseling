@@ -1,9 +1,12 @@
 
 .hero-cont {
-    height: 350px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('../../img/portada-deprecada.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
 }
 
 .hero-card-title {

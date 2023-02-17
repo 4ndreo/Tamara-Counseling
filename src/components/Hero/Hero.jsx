@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="hero-cont bg-gray">
       <div className="container">
-        <h1 className="hero-card-title">Tamara Counseling</h1>
+        <h1 className="hero-card-title">YO-TU Counseling</h1>
         <p>CONSULTORÍA PSICOLÓGICA PARA EL DESARROLLO PERSONAL</p>
       </div>
     </section>
