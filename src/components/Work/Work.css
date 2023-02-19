@@ -7,7 +7,9 @@
     gap: 4rem;
     align-items: center;
 }
-
+.work-cont h2 {
+    color: violet;
+}
 .work-img {
     width: 100%;
     border-radius: 6px 4rem 6px 4rem;

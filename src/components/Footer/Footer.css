@@ -1,0 +1,25 @@
+footer {
+  padding-bottom: 4rem;
+}
+
+footer ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h2 {
+  color: violet;
+}
+
+footer a {
+  color: black;
+  display: flex;
+  transition: color, transform 0.15s ease-in-out;
+}
+footer a:hover {
+  transform: translateY(-3px);
+  border-bottom: 3px solid violet;
+  color: violet;
+  padding-bottom: 3px;
+}
