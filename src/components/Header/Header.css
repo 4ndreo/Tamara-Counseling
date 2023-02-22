@@ -7,6 +7,9 @@ nav {
   z-index: 8;
   /* transition:  ease-in-out 0.3s; */
 }
+.nav-brand {
+  z-index: 5;
+}
 .nav-brand-icon {
   transition: all 0.3s ease-in-out;
 }
@@ -115,14 +118,17 @@ nav {
     margin: 0;
     top: 0;
     padding-top: 70px;
-    right: -300px;
+    right: -200px;
     background-color: #fff;
     height: 100vh;
-    width: 300px;
+    width: 200px;
     transition: 0.3s ease-in-out;
   }
   .nav-items.active {
     right: 0;
+  }
+  .nav-items li {
+    margin-bottom: 1rem;
   }
   .nav-items a {
     color: black !important;
