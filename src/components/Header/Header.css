@@ -98,6 +98,7 @@ nav {
 
 #mobile {
   display: none;
+  z-index: 4;
 }
 
 @media screen and (max-width: 769px) {
@@ -105,15 +106,17 @@ nav {
     display: block;
   }
   .nav-items {
+    z-index: 3;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     position: fixed;
     padding: 0;
     margin: 0;
-    top: 50px;
+    top: 0;
+    padding-top: 70px;
     right: -300px;
-    background-color: #b3b3b3;
+    background-color: #fff;
     height: 100vh;
     width: 300px;
     transition: 0.3s ease-in-out;
@@ -121,4 +124,11 @@ nav {
   .nav-items.active {
     right: 0;
   }
+  .nav-items a {
+    color: black !important;
+  }
+}
+
+.color-white {
+  color: white;
 }

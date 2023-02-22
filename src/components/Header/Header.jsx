@@ -47,11 +47,20 @@ export default function Header(location) {
           </ul>
         </div>
         <div id="mobile">
-          <i
-            id="bar"
-            className={clicked ? "fas fa-times" : "fas fa-bars"}
-            onClick={handleClick}
-          ></i>
+          {
+            location.location === '/' && !scrolled ?
+            <i
+              id="bar"
+              className={clicked ? "fas fa-times" : "fas fa-bars color-white"}
+              onClick={handleClick}
+            ></i>
+            : 
+            <i
+              id="bar"
+              className={clicked ? "fas fa-times" : "fas fa-bars"}
+              onClick={handleClick}
+            ></i>
+          }
         </div>
       </Container>
     </nav>
