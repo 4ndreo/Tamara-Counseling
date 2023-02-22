@@ -7,7 +7,9 @@ export default function Hero() {
     <section className="hero-cont bg-gray">
       <div className="container">
         <h1 className="hero-card-title">YO-TU Counseling</h1>
-        <p>CONSULTORÍA PSICOLÓGICA PARA EL DESARROLLO PERSONAL</p>
+        <p>Consultoría psicológica para el desarrollo personal</p>
+        <p>Acompañamiento y orientación psicológica</p>
+        <p>Psicología Humanista - Enfoque Centrado en la Persona</p>
       </div>
     </section>
   );
