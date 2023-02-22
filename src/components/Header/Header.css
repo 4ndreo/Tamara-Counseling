@@ -13,8 +13,9 @@ nav {
 .nav-brand-text {
   padding-left: 1rem;
   overflow: hidden;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease, transform 0.3s ease;
   color: #ee82ee;
+  display: inline-flex;
 }
 .nav-brand-text:hover {
   color: #ee82ee;
@@ -37,6 +38,7 @@ nav {
 
 .nav-top ~ .nav-cont .nav-brand-text {
   opacity: 0;
+  transform: translateY(10px);
 }
 
 .nav-scrolled {

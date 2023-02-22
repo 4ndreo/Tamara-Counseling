@@ -1,19 +1,37 @@
 .work-cont {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
-.work-cont .container  {
-    display: grid;
-    grid-template-columns: 25% 1fr;
-    gap: 4rem;
-    align-items: center;
+.work-cont .container {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  gap: 4rem;
+  align-items: center;
 }
 .work-cont h2 {
-    color: violet;
+  color: violet;
+}
+.work-img-cont {
+  position: relative;
+}
+.work-img-cont::after {
+  display: block;
+  content: "";
+  background: violet;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 15px;
+  left: 23px;
+  z-index: 2;
+  border-radius: 6px 4rem 6px 4rem;
+
 }
 .work-img {
-    width: 100%;
-    border-radius: 6px 4rem 6px 4rem;
+  width: 100%;
+  border-radius: 6px 4rem 6px 4rem;
+  position: relative;
+  z-index: 3;
 }
 .work-text-cont p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

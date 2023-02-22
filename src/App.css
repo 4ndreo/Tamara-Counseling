@@ -8,6 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 .negritas {
   font-family: 'Satoshi-Bold';
 }
+
+#root {
+  /* min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto; */
+}
+
 .bg-gray {
   background-color: gray;
 }

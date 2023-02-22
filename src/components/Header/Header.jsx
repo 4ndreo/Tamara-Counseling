@@ -4,12 +4,13 @@ import 'animate.css';
 import React, { useEffect, useState, useContext } from "react";
 import { Container } from "react-bootstrap";
 
-export default function Header() {
+export default function Header(location) {
   const [clicked, setClicked] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    console.log(location.location)
   });
 
   function handleClick(e) {
@@ -17,13 +18,13 @@ export default function Header() {
   }
 
   function handleScroll() {
-    window.pageYOffset !== 0 ? setScrolled(true) : setScrolled(false);
+    window.pageYOffset >= 200 ? setScrolled(true) : setScrolled(false);
   }
 
   return (
     <nav>
       <div
-        className={scrolled ? "nav-bg nav-scrolled" : "nav-bg nav-top"}
+        className={location.location === '/' && !scrolled ? "nav-bg nav-top" : "nav-bg nav-scrolled"}
       ></div>
       <Container className="nav-cont">
         <div className="nav-brand">
@@ -35,10 +36,10 @@ export default function Header() {
         <div className="nav-items-cont">
           <ul className={clicked ? "nav-items active" : "nav-items"}>
             <li>
-              <a href="#">Inicio</a>
+              <a href="/">Inicio</a>
             </li>
             <li>
-              <a href="#">Counseling</a>
+              <a href="/counseling">Counseling</a>
             </li>
             <li>
               <a href="#contacto">Contacto</a>
