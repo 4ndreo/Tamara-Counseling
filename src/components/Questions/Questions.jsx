@@ -1,5 +1,5 @@
 import "./Questions.css";
-import Blackboard from "../../img/blackboard_auto_x2_auto_x2.jpg";
+import pizarraPared from "../../img/pizarra-pared.jpeg";
 
 import React from "react";
 
@@ -12,7 +12,10 @@ export default function Questions() {
             Consultas Posibles
           </h2>
         </div>
-        <div className="questions-img-cont text-center"></div>
+        <div className="questions-img-cont ">
+        <img className="questions-img" src={pizarraPared} alt=""/>
+
+        </div>
       </div>
     </section>
   );
