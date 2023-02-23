@@ -1,38 +1,36 @@
 .c-quotes-cont {
-    padding: 5rem 0;
+  padding-top: 5rem;
 }
 .slide-cont {
-    height: 600px;
+  height: 600px;
 }
 .slide-1 {
-    background: url("../../img/carrousel-1.jpg") no-repeat center center;
-    background-size: cover;
+  background: url("../../img/carrousel-1.jpg") no-repeat center center;
+  background-size: cover;
 }
 .slide-2 {
-    background: url("../../img/carrousel-2.jpg") no-repeat center center;
-    background-size: cover;
+  background: url("../../img/carrousel-2.jpg") no-repeat center center;
+  background-size: cover;
 }
 .slide-3 {
-    background: url("../../img/carrousel-3.jpg") no-repeat center center;
-    background-size: cover;
+  background: url("../../img/carrousel-3.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .slide-text-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
 }
 .slide-text {
-    color: white;
+  color: white;
 }
 
 @media screen and (max-width: 769px) {
-    .slide-text {
-        width: 80%;
-    
-    }
+  .slide-text {
+    width: 80%;
+  }
 }

@@ -13,17 +13,18 @@ import Counseling from "./pages/Counseling/Counseling";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  
   let location = useLocation().pathname;
 
   return (
     <>
-      <Header location={location}></Header>
-      <Routes>
-        <Route path="*" element={<Home />} />
-        <Route path="/counseling" element={<Counseling />} />
-      </Routes>
-      <Footer></Footer>
+      <div className="flex-wrapper">
+        <Header location={location}></Header>
+        <Routes>
+          <Route path="*" element={<Home />} />
+          <Route path="/counseling" element={<Counseling />} />
+        </Routes>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
