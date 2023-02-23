@@ -29,3 +29,10 @@
 .slide-text {
     color: white;
 }
+
+@media screen and (max-width: 769px) {
+    .slide-text {
+        width: 80%;
+    
+    }
+}

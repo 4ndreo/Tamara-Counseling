@@ -23,3 +23,13 @@ footer a:hover {
   color: violet;
   padding-bottom: 3px;
 }
+
+@media screen and (max-width: 950px) {
+  footer ul {
+    flex-direction: column;
+  }
+
+  footer ul li {
+    margin-bottom: 2rem;
+  }
+}
