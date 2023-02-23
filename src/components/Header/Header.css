@@ -6,6 +6,7 @@ nav {
   width: 100%;
   z-index: 8;
   /* transition:  ease-in-out 0.3s; */
+  
 }
 .nav-brand {
   z-index: 5;
@@ -32,6 +33,7 @@ nav {
 }
 .nav-top {
   background-color: rgba(255, 255, 255, 0);
+  
 }
 .nav-top ~ .nav-cont .nav-brand-icon {
   background: url("../../img/hand-fan-white.svg") no-repeat center left;
@@ -45,7 +47,11 @@ nav {
 }
 
 .nav-scrolled {
-  background-color: rgba(255, 255, 255, 1);
+  /* background-color: rgba(255, 255, 255, 1); */
+  background: rgba(255,255,255,0.45);
+-webkit-backdrop-filter: blur(8px);
+backdrop-filter: blur(8px);
+border: 1px solid rgba(255,255,255,0.225);
 }
 
 .nav-scrolled ~ .nav-cont .nav-brand-icon {
