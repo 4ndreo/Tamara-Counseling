@@ -1,5 +1,6 @@
 import "./Questions.css";
 import pizarraPared from "../../img/pizarra-pared.jpeg";
+import pizarraSticky from "../../img/pizarra-sticky.jpeg";
 
 import React from "react";
 
@@ -12,9 +13,19 @@ export default function Questions() {
             Consultas Posibles
           </h2>
         </div>
-        <div className="questions-img-cont ">
-        <img className="questions-img" src={pizarraPared} alt=""/>
-
+        {/* <div className="questions-img-cont pizarra-pared-cont">
+          <img
+            className="questions-img pizarra-pared"
+            src={pizarraPared}
+            alt=""
+          />
+        </div> */}
+        <div className="questions-img-cont pizarra-sticky-cont">
+          <img
+            className="questions-img pizarra-sticky"
+            src={pizarraSticky}
+            alt=""
+          />
         </div>
       </div>
     </section>
