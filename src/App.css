@@ -37,3 +37,9 @@ li {
 a {
   text-decoration: none;
 }
+
+.swiper-button-prev {
+  color: red !important;
+  /* background: url("../../img/circle-arrow-left-solid.svg") no-repeat center center !important; */
+  /* background-size: cover; */
+}

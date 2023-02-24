@@ -29,6 +29,30 @@
   color: white;
 }
 
+.swipe-cont {
+    position: relative;
+    z-index: 1;
+}
+
+.action-btn {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: calc(50% - 24px);
+    padding: 1rem;
+}
+
+.btn-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    color: red;
+    /* background: url("../../img/circle-arrow-left-solid.svg") no-repeat center center !important; */
+    /* background-size: cover; */
+  }
+
 @media screen and (max-width: 769px) {
   .slide-text {
     width: 80%;
