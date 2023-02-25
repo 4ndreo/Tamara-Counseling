@@ -145,6 +145,11 @@ swiper-slide:nth-child(10n) span {
 }
 
 @media screen and (max-width: 950px) {
+    .counseling-cont h2 {
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+    }
   .counseling-info-cont {
     display: flex;
     flex-direction: column-reverse;
@@ -163,6 +168,10 @@ swiper-slide:nth-child(10n) span {
 
   .temas-counseling-cont {
     padding: 3rem 0;
+  }
+
+  .temas-counseling-cont h2{
+    margin-bottom: 3rem;
   }
 
   swiper-container {
