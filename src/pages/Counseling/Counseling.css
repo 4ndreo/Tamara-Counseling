@@ -42,23 +42,7 @@
 ;
 }
 
-@media screen and (max-width: 950px) {
-    .counseling-info-cont {
-      display: flex;
-      flex-direction: column-reverse;
-        }
-    .counseling-img-cont img {
-      width: 80%;
-      height: 250px;
-      object-fit: cover;
-    }
-    .counseling-img-cont::after {
-      width: 80%;
-      height: 98%;
-      top: 8%;
-      left: 15%;
-    }
-  }
+
   
 
 swiper-container {
@@ -79,6 +63,7 @@ swiper-slide {
 
 swiper-slide span {
   padding-top: 6rem;
+  text-align: center;
 }
 swiper-slide span::after {
   display: block;
@@ -139,3 +124,30 @@ swiper-slide:nth-child(10n) span {
   background: url("../../img/laboral.svg") no-repeat top center;
   background-size: 5rem;
 }
+
+
+@media screen and (max-width: 950px) {
+    .counseling-info-cont {
+      display: flex;
+      flex-direction: column-reverse;
+        }
+    .counseling-img-cont img {
+      width: 80%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .counseling-img-cont::after {
+      width: 80%;
+      height: 98%;
+      top: 8%;
+      left: 15%;
+    }
+
+    swiper-container {
+        width: 50%;
+        height: 320px;
+      }
+      swiper-slide {
+        /* width: 300px !important; */
+      }
+  }
