@@ -17,7 +17,7 @@ export default function Footer() {
           </li>
           <li>
             <p className="negritas mb-2">Mail</p>
-            <a href="mailto:yotucounseling@gmail.com">
+            <a href="mailto:yo.tu.counseling@gmail.com">
               yo.tu.counseling@gmail.com
             </a>
           </li>
