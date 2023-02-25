@@ -11,19 +11,15 @@ export default function Footer() {
         <ul className="mt-4 mb-4">
           <li>
             <p className="negritas mb-2">Teléfono</p>
-            <a href="https://wa.me/+541112345678" target="blank">
-              +54 11 1234-5678
+            <a href="https://wa.me/+5491157406006" target="blank">
+              +54 911 5740-6006
             </a>
           </li>
           <li>
             <p className="negritas mb-2">Mail</p>
             <a href="mailto:yotucounseling@gmail.com">
-              yotucounseling@gmail.com
+              yo.tu.counseling@gmail.com
             </a>
-          </li>
-          <li>
-            <p className="negritas mb-2">Instagram</p>
-            <span>@yotucounseling</span>
           </li>
         </ul>
       </Container>
