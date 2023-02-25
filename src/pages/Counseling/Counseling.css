@@ -32,18 +32,17 @@
   border-radius: 6px 4rem 6px 64pt;
   position: relative;
   z-index: 3;
-  box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-  100px 100px 80px rgba(0, 0, 0, 0.07)
-;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-
-  
+.temas-counseling-cont {
+  padding: 7rem 0;
+}
 
 swiper-container {
   width: 240px;
@@ -62,9 +61,9 @@ swiper-slide {
 }
 
 swiper-slide span {
-    text-align: center;
-    padding: 0 0.5rem;
-    padding-top: 6rem;
+  text-align: center;
+  padding: 0 0.5rem;
+  padding-top: 6rem;
 }
 swiper-slide span::after {
   display: block;
@@ -126,29 +125,58 @@ swiper-slide:nth-child(10n) span {
   background-size: 5rem;
 }
 
+.pilares-cont .pilares-list {
+  background: #ebebeb;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  margin: 4rem 0;
+  box-shadow: 0.7px 1px 3.2px rgba(0, 0, 0, 0.017),
+    1.7px 2.3px 7.6px rgba(0, 0, 0, 0.024),
+    3.3px 4.4px 14.3px rgba(0, 0, 0, 0.03),
+    5.8px 7.8px 25.5px rgba(0, 0, 0, 0.036),
+    10.9px 14.6px 47.6px rgba(0, 0, 0, 0.043),
+    26px 35px 114px rgba(0, 0, 0, 0.06);
+}
+
+.pilares-cont li {
+  background: url("../../img/arrow.svg") no-repeat top left;
+  background-size: 1.5rem;
+  padding-left: 2rem;
+}
 
 @media screen and (max-width: 950px) {
-    .counseling-info-cont {
-      display: flex;
-      flex-direction: column-reverse;
-        }
-    .counseling-img-cont img {
-      width: 80%;
-      height: 250px;
-      object-fit: cover;
-    }
-    .counseling-img-cont::after {
-      width: 80%;
-      height: 98%;
-      top: 8%;
-      left: 15%;
-    }
-
-    swiper-container {
-        width: 50%;
-        height: 320px;
-      }
-      swiper-slide {
-        /* width: 300px !important; */
-      }
+  .counseling-info-cont {
+    display: flex;
+    flex-direction: column-reverse;
   }
+  .counseling-img-cont img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .counseling-img-cont::after {
+    width: 80%;
+    height: 98%;
+    top: 8%;
+    left: 15%;
+  }
+
+  .temas-counseling-cont {
+    padding: 3rem 0;
+  }
+
+  swiper-container {
+    width: 50%;
+    height: 320px;
+  }
+  .pilares-cont {
+    padding-top: 4rem;
+  }
+  .pilares-cont .pilares-list {
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+  }
+  .pilares-cont ul {
+    padding-left: 0;
+  }
+}

@@ -70,74 +70,81 @@ export default function Counseling() {
           </p>
         </div>
         <div className="counseling-img-cont">
-
-        <img src={WomanCounseling} alt="" />
+          <img src={WomanCounseling} alt="" />
         </div>
       </div>
-      <h2 className="text-center">Temas que aborda el counseling</h2>
-      <swiper-container
-        class="mySwiper"
-        effect="cards"
-        grab-cursor="true"
-        autoplay="true"
-        autoplay-delay="1500"
-        autoplay-disable-on-interaction="false"
-      >
-        <swiper-slide>
-          <span>Etapas vitales</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Identidad</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Adolescencia</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Pareja y familia</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Educación</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Adicciones</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Desarrollo personal</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Sexualidad</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Espiritualidad</span>
-        </swiper-slide>
-        <swiper-slide>
-          <span>Laboral</span>
-        </swiper-slide>
-      </swiper-container>
-
-      <p>Los pilares fundamentales que sostienen nuestra profesión son:</p>
-      <ul>
-        <li>
-          - La formación académica teórico-vivencial, en la que abordamos el
-          potencial humano con sus aspectos biológicos, psíquicos, sociológicos
-          y espirituales. Con la responsabilidad de una formación continua en
-          todo lo que contribuya a nuestro despliegue personal de modo creativo,
-          a enriquecer nuestra existencia como personas en el mundo, y a la
-          facilitación de la escucha como counselors.
-        </li>
-        <li>- El proceso personal.</li>
-        <li>
-          - La supervisión del trabajo. En estos pilares nos apoyamos para
-          desarrollar las actitudes personales y profesionales necesarias para
-          crear condiciones facilitadoras de un vínculo humano y una
-          comunicación fluida en cada encuentro.
-        </li>
-      </ul>
-      <p>
-        En estos pilares nos apoyamos para desarrollar las actitudes personales
-        y profesionales necesarias para crear condiciones facilitadoras de un
-        vínculo humano y una comunicación fluida en cada encuentro.
-      </p>
+      <section className="temas-counseling-cont">
+        <h2 className="text-center">Temas que aborda el counseling</h2>
+        <swiper-container
+          class="mySwiper"
+          effect="cards"
+          grab-cursor="true"
+          autoplay="true"
+          autoplay-delay="1500"
+          autoplay-disable-on-interaction="false"
+        >
+          <swiper-slide>
+            <span>Etapas vitales</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Identidad</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Adolescencia</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Pareja y familia</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Educación</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Adicciones</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Desarrollo personal</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Sexualidad</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Espiritualidad</span>
+          </swiper-slide>
+          <swiper-slide>
+            <span>Laboral</span>
+          </swiper-slide>
+        </swiper-container>
+      </section>
+      <section className="pilares-cont">
+        <h2>Pilares Fundamentales de nuestra profesión</h2>
+        <div className="pilares-list">
+        <ul className="mb-4">
+          <li>
+            <span className="negritas">
+              La formación académica teórico-vivencial:
+            </span>{" "}
+            abordamos el potencial humano con sus aspectos biológicos,
+            psíquicos, sociológicos y espirituales. Con la responsabilidad de
+            una formación continua en todo lo que contribuya a nuestro
+            despliegue personal de modo creativo, a enriquecer nuestra
+            existencia como personas en el mundo, y a la facilitación de la
+            escucha como counselors.
+          </li>
+          <li>
+            <span className="negritas">El proceso personal</span>
+          </li>
+          <li>
+            <span className="negritas">La supervisión del trabajo</span>
+          </li>
+        </ul>
+        <p>
+          En estos pilares nos apoyamos para desarrollar las actitudes
+          personales y profesionales necesarias para crear condiciones
+          facilitadoras de un vínculo humano y una comunicación fluida en cada
+          encuentro.
+        </p>
+        </div>
+      </section>
     </main>
   );
 }
