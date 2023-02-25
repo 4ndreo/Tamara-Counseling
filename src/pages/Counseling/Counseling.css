@@ -1,7 +1,104 @@
 .counseling-cont {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .counseling-cont h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.counseling-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+.counseling-list li {
+  background-color: ;
+}
+
+.counseling-list li:first-child {
+  background: url("../../img/etapas-vitales.svg") no-repeat top center;
+  background-size: 3.5rem;
+  padding-top: 4rem;
+}
+.counseling-list li:first-child span {
+  padding-top: 4rem;
+}
+
+swiper-container {
+  width: 240px;
+  height: 320px;
+}
+
+swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  background-color: #ebebeb;
+}
+
+swiper-slide span {
+  padding-top: 6rem;
+}
+swiper-slide span::after {
+  display: block;
+  content: "";
+  width: 2rem;
+  height: 2px;
+  margin: auto;
+  margin-top: 2rem;
+  background: #000;
+}
+
+swiper-slide:nth-child(1n) span {
+  background: url("../../img/etapas-vitales.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(2n) span {
+  background: url("../../img/identidad.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(3n) span {
+  background: url("../../img/adolescencia.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(4n) span {
+  background: url("../../img/familia.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(5n) span {
+  background: url("../../img/educacion.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(6n) span {
+  background: url("../../img/adicciones.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(7n) span {
+  background: url("../../img/desarrollo-personal.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(8n) span {
+  background: url("../../img/sexualidad.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(9n) span {
+  background: url("../../img/espiritualidad.svg") no-repeat top center;
+  background-size: 5rem;
+}
+
+swiper-slide:nth-child(10n) span {
+  background: url("../../img/laboral.svg") no-repeat top center;
+  background-size: 5rem;
 }
