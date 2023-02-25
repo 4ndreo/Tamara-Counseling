@@ -62,7 +62,7 @@ export default function Counseling() {
         del potencial humano.
       </p>
       <h2>Temas que aborda el counseling</h2>
-      <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+      <swiper-container class="mySwiper" effect="cards" grab-cursor="true" autoplay="true" autoplay-delay="1500" autoplay-disable-on-interaction="false">
         <swiper-slide>
           <span>Etapas vitales</span>
         </swiper-slide>
