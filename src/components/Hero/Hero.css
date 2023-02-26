@@ -13,3 +13,10 @@
 .hero-card-title {
     font-size: 5rem;
 }
+
+@media screen and (max-width: 950px) {
+    .hero-card-title {
+        font-size: 3rem;
+    }
+  }
+  
