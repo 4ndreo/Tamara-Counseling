@@ -2,8 +2,13 @@
   padding-top: 70px;
 }
 
+.counseling-cont h1 {
+  margin-bottom: 2rem;
+  color: #CEBCCC;
+}
 .counseling-cont h2 {
   margin-bottom: 2rem;
+  color: #CEBCCC;
 }
 
 .counseling-info-cont {
