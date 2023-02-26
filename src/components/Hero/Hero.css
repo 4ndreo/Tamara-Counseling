@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../../img/portada-deprecada.jpg') no-repeat center center;
+    background: url('../../img/abanicos-hero.png') no-repeat center center;
     background-size: cover;
     color: white;
 }
