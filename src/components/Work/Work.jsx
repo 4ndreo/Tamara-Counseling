@@ -1,5 +1,6 @@
 import "./Work.css";
-import RandomWomanImg from "../../img/random-woman.jpg";
+// import RandomWomanImg from "../../img/random-woman.jpg";
+import WorkImg from "../../img/mi-trabajo.png";
 
 import React from "react";
 
@@ -8,7 +9,7 @@ export default function Work() {
     <section className="work-cont">
       <div className="container">
         <div className="work-img-cont">
-          <img className="work-img" src={RandomWomanImg} alt="" />
+          <img className="work-img" src={WorkImg} alt="" />
         </div>
         <div className="work-text-cont">
           <h2 className="work-card-title h2-title">Mi Trabajo</h2>

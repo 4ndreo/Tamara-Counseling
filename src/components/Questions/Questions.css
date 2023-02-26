@@ -7,7 +7,7 @@
 }
 
 .questions-cont h2 {
-  color: violet;
+  color: #CEBCCC;
 }
 
 .questions-img.pizarra-pared {
@@ -31,7 +31,7 @@
 .questions-img-cont.pizarra-pared-cont::after {
   display: block;
   content: "";
-  background: violet;
+  background: #CEBCCC;
   width: 69%;
   height: 100%;
   position: absolute;
@@ -62,7 +62,7 @@
 .questions-img-cont.pizarra-sticky-cont::after {
   display: block;
   content: "";
-  background: violet;
+  background: #CEBCCC;
   width: 75%;
   height: 100%;
   position: absolute;
@@ -79,7 +79,7 @@
     .questions-img-cont.pizarra-pared-cont::after {
         display: block;
         content: "";
-        background: violet;
+        background: #CEBCCC;
         width: 95%;
         height: 100%;
         position: absolute;
@@ -94,7 +94,7 @@
     .questions-img-cont.pizarra-sticky-cont::after {
         display: block;
         content: "";
-        background: violet;
+        background: #CEBCCC;
         width: 95%;
         height: 100%;
         position: absolute;

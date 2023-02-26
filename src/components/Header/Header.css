@@ -17,11 +17,11 @@ nav {
   padding-left: 1rem;
   overflow: hidden;
   transition: opacity 0.5s ease, transform 0.3s ease;
-  color: #ee82ee;
+  color: #CEBCCC;
   display: inline-flex;
 }
 .nav-brand-text:hover {
-  color: #ee82ee;
+  color: #CEBCCC;
 }
 .nav-bg {
   z-index: 9;
@@ -34,7 +34,7 @@ nav {
   background-color: rgba(255, 255, 255, 0);
 }
 .nav-top ~ .nav-cont .nav-brand-icon {
-  background: url("../../img/hand-fan-white.svg") no-repeat center left;
+  background: url("../../img/icons/hand-fan-white.svg") no-repeat center left;
   background-size: contain;
   padding: 1.5rem;
 }
@@ -49,7 +49,7 @@ nav {
 }
 
 .nav-scrolled ~ .nav-cont .nav-brand-icon {
-  background: url("../../img/hand-fan-violet.svg") no-repeat center left;
+  background: url("../../img/icons/hand-fan-violet-gray.svg") no-repeat center left;
   background-size: contain;
   padding: 1.5rem;
 }
@@ -91,12 +91,12 @@ nav {
   transition: color 0.15s ease-in-out;
 }
 .nav-cont .nav-items li a:hover {
-  border-bottom: 3px solid violet;
-  color: violet;
+  border-bottom: 3px solid #CEBCCC;
+  color: #CEBCCC;
   padding-bottom: 3px;
 }
 .nav-cont .nav-items li a.active {
-  color: violet;
+  color: #CEBCCC;
 }
 
 #mobile {

@@ -18,7 +18,7 @@
 .counseling-img-cont::after {
   display: block;
   content: "";
-  background: violet;
+  background: #CEBCCC;
   width: 100%;
   height: 92%;
   position: absolute;
@@ -76,52 +76,52 @@ swiper-slide span::after {
 }
 
 swiper-slide:nth-child(1n) span {
-  background: url("../../img/etapas-vitales.svg") no-repeat top center;
+  background: url("../../img/icons/etapas-vitales.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(2n) span {
-  background: url("../../img/identidad.svg") no-repeat top center;
+  background: url("../../img/icons/identidad.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(3n) span {
-  background: url("../../img/adolescencia.svg") no-repeat top center;
+  background: url("../../img/icons/adolescencia.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(4n) span {
-  background: url("../../img/familia.svg") no-repeat top center;
+  background: url("../../img/icons/familia.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(5n) span {
-  background: url("../../img/educacion.svg") no-repeat top center;
+  background: url("../../img/icons/educacion.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(6n) span {
-  background: url("../../img/adicciones.svg") no-repeat top center;
+  background: url("../../img/icons/adicciones.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(7n) span {
-  background: url("../../img/desarrollo-personal.svg") no-repeat top center;
+  background: url("../../img/icons/desarrollo-personal.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(8n) span {
-  background: url("../../img/sexualidad.svg") no-repeat top center;
+  background: url("../../img/icons/sexualidad.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(9n) span {
-  background: url("../../img/espiritualidad.svg") no-repeat top center;
+  background: url("../../img/icons/espiritualidad.svg") no-repeat top center;
   background-size: 5rem;
 }
 
 swiper-slide:nth-child(10n) span {
-  background: url("../../img/laboral.svg") no-repeat top center;
+  background: url("../../img/icons/laboral.svg") no-repeat top center;
   background-size: 5rem;
 }
 
@@ -139,7 +139,7 @@ swiper-slide:nth-child(10n) span {
 }
 
 .pilares-cont li {
-  background: url("../../img/arrow.svg") no-repeat top left;
+  background: url("../../img/icons/arrow.svg") no-repeat top left;
   background-size: 1.5rem;
   padding-left: 2rem;
 }

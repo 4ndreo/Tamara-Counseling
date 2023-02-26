@@ -11,7 +11,7 @@ footer ul {
 }
 
 footer h2 {
-  color: violet;
+  color: #CEBCCC;
 }
 
 footer a {
@@ -22,8 +22,8 @@ footer a {
 }
 footer a:hover {
   transform: translateY(-3px);
-  border-bottom: 3px solid violet;
-  color: violet;
+  border-bottom: 3px solid #CEBCCC;
+  color: #CEBCCC;
   padding-bottom: 3px;
 }
 

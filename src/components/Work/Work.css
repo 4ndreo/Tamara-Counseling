@@ -8,7 +8,7 @@
   align-items: center;
 }
 .work-cont h2 {
-  color: violet;
+  color: #CEBCCC;
 }
 .work-img-cont {
   position: relative;
@@ -17,7 +17,7 @@
 .work-img-cont::after {
   display: block;
   content: "";
-  background: violet;
+  background: #CEBCCC;
   width: 100%;
   height: 100%;
   position: absolute;

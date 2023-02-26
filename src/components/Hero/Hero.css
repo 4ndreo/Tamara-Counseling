@@ -4,11 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../../img/abanicos-hero.png') no-repeat center center;
+    background: url('../../img/abanicos-hero-transformed.png') no-repeat center center;
     background-size: cover;
     color: white;
+    text-align: center;
 }
 
 .hero-card-title {
-    font-size: 3rem;
+    font-size: 5rem;
 }
