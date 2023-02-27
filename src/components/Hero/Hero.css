@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../../img/abanicos-hero-transformed.png') no-repeat center center;
+    background: url('../../img/abanicos-hero-desktop.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -14,9 +14,21 @@
     font-size: 5rem;
 }
 
-@media screen and (max-width: 950px) {
-    .hero-card-title {
-        font-size: 3rem;
+@media screen and (max-width: 1500px) {
+    .hero-cont {
+        background: url('../../img/abanicos-hero-laptop.jpeg') no-repeat center center;
+        background-size: cover;
     }
   }
+  @media screen and (max-width: 950px) {
+      .hero-card-title {
+          font-size: 3rem;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .hero-cont {
+            background: url('../../img/abanicos-hero-mobile.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+      }
   
