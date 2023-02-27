@@ -3,7 +3,8 @@
 }
 .work-cont .container {
   display: grid;
-  grid-template-columns: 25% 1fr;
+  grid-template-columns: 1fr;
+  /* grid-template-columns: 25% 1fr; */
   gap: 4rem;
   align-items: center;
 }

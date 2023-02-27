@@ -4,17 +4,18 @@
 
 .counseling-cont h1 {
   margin-bottom: 2rem;
-  color: #CEBCCC;
+  color: #cebccc;
 }
 .counseling-cont h2 {
   margin-bottom: 2rem;
-  color: #CEBCCC;
+  color: #cebccc;
 }
 
 .counseling-info-cont {
   display: flex;
   gap: 3rem;
   /* align-items: center; */
+  /* width: 80%; */
 }
 .counseling-img-cont {
   position: relative;
@@ -23,7 +24,7 @@
 .counseling-img-cont::after {
   display: block;
   content: "";
-  background: #CEBCCC;
+  background: #cebccc;
   width: 100%;
   height: 92%;
   position: absolute;
@@ -48,86 +49,15 @@
 .temas-counseling-cont {
   padding: 7rem 0;
 }
-
-swiper-container {
-  width: 240px;
-  height: 320px;
-}
-
-swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  color: black;
-  background-color: #ebebeb;
-}
-
-swiper-slide span {
+.temas-counseling-list {
+  flex-wrap: wrap;
   text-align: center;
-  padding: 0 0.5rem;
-  padding-top: 6rem;
-}
-swiper-slide span::after {
-  display: block;
-  content: "";
-  width: 2rem;
-  height: 2px;
   margin: auto;
-  margin-top: 2rem;
-  background: #000;
+  justify-content: center;
+  width: 60%;
 }
-
-swiper-slide:nth-child(1n) span {
-  background: url("../../img/icons/etapas-vitales.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(2n) span {
-  background: url("../../img/icons/identidad.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(3n) span {
-  background: url("../../img/icons/adolescencia.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(4n) span {
-  background: url("../../img/icons/familia.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(5n) span {
-  background: url("../../img/icons/educacion.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(6n) span {
-  background: url("../../img/icons/adicciones.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(7n) span {
-  background: url("../../img/icons/desarrollo-personal.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(8n) span {
-  background: url("../../img/icons/sexualidad.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(9n) span {
-  background: url("../../img/icons/espiritualidad.svg") no-repeat top center;
-  background-size: 5rem;
-}
-
-swiper-slide:nth-child(10n) span {
-  background: url("../../img/icons/laboral.svg") no-repeat top center;
-  background-size: 5rem;
+.temas-counseling-list {
+  font-size: 1.15rem;
 }
 
 .pilares-cont .pilares-list {
@@ -150,11 +80,11 @@ swiper-slide:nth-child(10n) span {
 }
 
 @media screen and (max-width: 950px) {
-    .counseling-cont h2 {
-        max-width: 80%;
-        margin: auto;
-        text-align: center;
-    }
+  .counseling-cont h2 {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+  }
   .counseling-info-cont {
     display: flex;
     flex-direction: column-reverse;
@@ -175,13 +105,12 @@ swiper-slide:nth-child(10n) span {
     padding: 3rem 0;
   }
 
-  .temas-counseling-cont h2{
-    margin-bottom: 3rem;
+  .temas-counseling-list {
+    width: 80%;
   }
 
-  swiper-container {
-    width: 50%;
-    height: 320px;
+  .temas-counseling-cont h2 {
+    margin-bottom: 3rem;
   }
   .pilares-cont {
     padding-top: 4rem;

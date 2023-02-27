@@ -20,12 +20,17 @@ footer a {
   display: flex;
   transition: color, transform 0.15s ease-in-out;
   position: absolute;
+  margin-left: 2rem;
 }
 footer a:hover {
   transform: translateY(-3px);
   border-bottom: 3px solid #CEBCCC;
   color: #CEBCCC;
   padding-bottom: 3px;
+}
+
+.icons-footer {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 950px) {
