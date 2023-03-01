@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../../img/abanicos-hero-desktop.jpeg') no-repeat center center;
-    background-size: cover;
+    background: url('../../img/abanicos-hero-desktop-v2.png') no-repeat center center;
+    background-size: contain;
     color: white;
     text-align: center;
 }
@@ -14,7 +14,7 @@
     font-size: 5rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1320px) {
     .hero-cont {
         background: url('../../img/abanicos-hero-laptop.jpeg') no-repeat center center;
         background-size: cover;
