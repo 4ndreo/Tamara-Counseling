@@ -3,10 +3,12 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Satoshi-Bold';
+  /* font-family: 'Satoshi-Bold'; */
+  font-weight: 600;
 }
 .negritas {
-  font-family: 'Satoshi-Bold';
+  /* font-family: 'Satoshi-Bold'; */
+  font-weight: 600;
 }
 
 #root {
@@ -26,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h2-title {
-  font-family: 'Satoshi-Bold';
+  /* font-family: 'Satoshi-Bold'; */
+  font-weight: 600;
   font-size: 2rem;
 }
 
