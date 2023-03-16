@@ -1,5 +1,4 @@
 import "./Counseling.css";
-import WomanCounseling from "../../img/woman-counseling.jpg";
 
 import React from "react";
 

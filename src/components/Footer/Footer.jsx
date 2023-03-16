@@ -8,7 +8,13 @@ export default function Footer() {
     <footer id="contacto">
       <Container>
         <h2>Hablemos</h2>
+        <p>Recibo consultas. ¡Tu pregunta es bienvenida!</p>
+        <p>Destinado a personas en edad adulta y adolescente.</p>
         <ul className="mt-4 mb-4">
+          <li className="d-flex tamara-name">
+            <i class="fa-regular fa-id-badge icons-footer"></i>
+            <p>Clr. Tamara C. Acosta</p>
+          </li>
           <li className="d-flex">
             <i class="fa-brands fa-whatsapp icons-footer"></i>
             <a href="https://wa.me/+5491157406006" target="blank">
@@ -16,7 +22,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="d-flex">
-          <i class="fa-regular fa-envelope icons-footer"></i>
+            <i class="fa-regular fa-envelope icons-footer"></i>
             <a href="mailto:yo.tu.counseling@gmail.com">
               yo.tu.counseling@gmail.com
             </a>
