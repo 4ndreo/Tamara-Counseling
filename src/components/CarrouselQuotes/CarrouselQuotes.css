@@ -5,12 +5,12 @@
   height: 600px;
 }
 .slide-1 {
-  background: url("../../img/carrousel-1.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../../img/carrousel-1.png") no-repeat center center;
+  background-size: contain;
 }
 .slide-2 {
-  background: url("../../img/carrousel-2.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("../../img/carrousel-2.png") no-repeat center center;
+  background-size: contain;
 }
 .slide-3 {
   background: url("../../img/carrousel-3.jpg") no-repeat center center;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   width: 100%;
   height: 100%;
 }
@@ -36,7 +36,7 @@
 
 .action-btn {
     font-size: 1.5rem;
-    color: white;
+    color: #CEBCCC;
     position: absolute;
     z-index: 2;
     top: calc(50% - 24px);
@@ -48,11 +48,6 @@
     right: 0;
 }
 
-.swiper-button-prev {
-    color: red;
-    /* background: url("../../img/circle-arrow-left-solid.svg") no-repeat center center !important; */
-    /* background-size: cover; */
-  }
 
 @media screen and (max-width: 769px) {
   .slide-text {

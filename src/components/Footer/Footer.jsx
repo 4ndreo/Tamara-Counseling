@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer id="contacto">
       <Container>
-        <h2>Contacto</h2>
+        <h2>Hablemos</h2>
         <ul className="mt-4 mb-4">
           <li className="d-flex">
             <i class="fa-brands fa-whatsapp icons-footer"></i>
