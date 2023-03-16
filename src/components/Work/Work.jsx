@@ -35,7 +35,7 @@ export default function Work() {
           <div className="img-text">
             <img className="work-img flor" src={FlorImg} alt="" />
             <p>
-              Promoviendo el autoconocimiento y el desarrollo de la persona,
+              Promoviendo el autoconocimiento y el desarrollo de la persona,{" "}
               <span className="negritas">
                 acompañando el sufrimiento como ser en el mundo, creando
                 condiciones que faciliten el despliegue del potencial humano

@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'Bahnschrift';
+  src: url('/public/fonts/Bahnschrift/BAHNSCHRIFT.TTF');
+}
+@font-face {
   font-family: 'Satoshi-Light';
   src: url('/public/fonts/Satoshi-Light.otf');
 }
