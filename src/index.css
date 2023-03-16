@@ -1,47 +1,26 @@
 @font-face {
-  font-family: 'Bahnschrift';
-  src: url('/public/fonts/Bahnschrift/BAHNSCHRIFT.TTF');
-}
-@font-face {
-  font-family: 'Satoshi-Light';
-  src: url('/public/fonts/Satoshi-Light.otf');
-}
-@font-face {
-  font-family: 'Satoshi-Regular';
-  src: url('/public/fonts/Satoshi-Regular.otf');
-}
-@font-face {
-  font-family: 'Satoshi-Medium';
-  src: url('/public/fonts/Satoshi-Medium.otf');
-}
-@font-face {
-  font-family: 'Satoshi-Bold';
-  src: url('/public/fonts/Satoshi-Bold.otf');
-}
-@font-face {
-  font-family: 'Satoshi-Black';
-  src: url('/public/fonts/Satoshi-Black.otf');
+  font-family: "Bahnschrift";
+  src: url("/public/fonts/Bahnschrift/BAHNSCHRIFT.TTF");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
   margin: 0;
-  font-family: 'Bahnschrift','Satoshi-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Bahnschrift", 'Calibri', Arial, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 350;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
