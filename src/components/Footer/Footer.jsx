@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer id="contacto">
       <Container>
-        <h2>Hablemos</h2>
-        <p>Recibo consultas. ¡Tu pregunta es bienvenida!</p>
+        <h2>Contacto</h2>
+        <p>Recibo consultas. Tu pregunta es bienvenida.</p>
         <p>Destinado a personas en edad adulta y adolescente.</p>
         <ul className="mt-4 mb-4">
           <li className="d-flex tamara-name">
