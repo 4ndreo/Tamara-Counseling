@@ -26,69 +26,97 @@ export default function CarrouselQuotes() {
           swipeOptions={{ continuous: true, auto: 3000, speed: 700 }}
           ref={(el) => (reactSwipeEl = el)}
         >
-          <div class="slide-cont slide-1">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-1">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-2">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+
+          <div className="clase-test">
+            <div class="slide-cont slide-2">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-3">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+
+          <div className="clase-test">
+            <div class="slide-cont slide-3">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-4">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-4">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-5">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-5">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-6">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-6">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-7">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-7">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-8">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-8">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-9">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-9">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-10">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-10">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-11">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-11">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-12">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-12">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
-          <div class="slide-cont slide-13">
-            <div className="slide-text-cont">
-              <div className="container slide-text"></div>
+          <div className="clase-test">
+            <div class="slide-cont slide-13">
+              <div className="slide-text-cont">
+                <div className="container slide-text"></div>
+              </div>
             </div>
           </div>
         </ReactSwipe>
