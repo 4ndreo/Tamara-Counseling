@@ -21,6 +21,9 @@ export default function CarrouselQuotes() {
   return (
     <section className="c-quotes-cont">
       <div className="swipe-cont container">
+      <h2 className="quotes-card-title h2-title text-center">
+            El Proceso
+          </h2>
         <ReactSwipe
           className="carousel container"
           swipeOptions={{ continuous: true, auto: 3000, speed: 700 }}

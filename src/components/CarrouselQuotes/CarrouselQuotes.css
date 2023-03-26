@@ -1,6 +1,11 @@
 .c-quotes-cont {
   padding-top: 5rem;
 }
+
+.c-quotes-cont h2 {
+  color: #CEBCCC;
+}
+
 .clase-test {
   width: 100%;
 }
