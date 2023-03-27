@@ -6,7 +6,7 @@
     align-items: center;
     background: url('../../img/abanicos-hero-desktop-v2.png') no-repeat center center;
     background-size: contain;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1320px) {
     .hero-cont {
-        background: url('../../img/abanicos-hero-laptop.jpeg') no-repeat center center;
+        background: url('../../img/abanicos-hero-laptop.png') no-repeat center center;
         background-size: cover;
     }
   }
@@ -27,7 +27,7 @@
     }
     @media screen and (max-width: 500px) {
         .hero-cont {
-            background: url('../../img/abanicos-hero-mobile.jpeg') no-repeat center center;
+            background: url('../../img/abanicos-hero-mobile.png') no-repeat center center;
             background-size: cover;
         }
       }
