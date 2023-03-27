@@ -51,7 +51,7 @@ export default function Header(location) {
             location.location === '/' && !scrolled ?
             <i
               id="bar"
-              className={clicked ? "fas fa-times" : "fas fa-bars color-white"}
+              className={clicked ? "fas fa-times" : "fas fa-bars color-black"}
               onClick={handleClick}
             ></i>
             : 

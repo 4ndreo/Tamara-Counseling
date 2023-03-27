@@ -31,10 +31,10 @@ nav {
   transition: background ease-in-out 0.3s;
 }
 .nav-top {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 1);
 }
 .nav-top ~ .nav-cont .nav-brand-icon {
-  background: url("../../img/icons/hand-fan-white.svg") no-repeat center left;
+  background: url("../../img/icons/hand-fan-violet-gray.svg") no-repeat center left;
   background-size: contain;
   padding: 1.5rem;
 }
@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-top ~ .nav-cont .nav-items li a {
-  color: white;
+  color: black;
 }
 
 .nav-cont {
