@@ -9,6 +9,23 @@
     color: black;
     text-align: center;
 }
+.hero-yotu {
+    background-color: #a1fbfd;
+}
+.hero-counseling {
+    background-color: #00b050;
+    color: white;
+}
+.hero-sub-1 {
+    background-color: #ff5050;
+    display: inline-block;
+    color: white;
+    font-size: 1.15rem;
+}
+.hero-sub-2 {
+    color: #c3bd96;
+    font-size: 1.15rem;
+}
 
 .hero-card-title {
     font-size: 5rem;
