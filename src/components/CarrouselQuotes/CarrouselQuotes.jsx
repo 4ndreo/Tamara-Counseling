@@ -26,7 +26,7 @@ export default function CarrouselQuotes() {
           </h2>
         <ReactSwipe
           className="carousel container"
-          swipeOptions={{ continuous: true, auto: 3000, speed: 700 }}
+          swipeOptions={{ continuous: true, auto: 6000, speed: 1400 }}
           ref={(el) => (reactSwipeEl = el)}
         >
           <div className="clase-test">

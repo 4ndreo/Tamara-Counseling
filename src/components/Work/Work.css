@@ -1,6 +1,6 @@
 .work-cont {
   padding: 5rem 0 4rem 0;
-  max-width: 700px;
+  max-width: 900px;
   margin: auto;
 }
 .work-cont h2 {
@@ -21,6 +21,9 @@
 .work-img {
   width: 100%;
   z-index: 3;
+}
+.work-text-cont {
+  font-size: 1.15rem;
 }
 .work-text-cont p:last-child {
   margin-bottom: 0;

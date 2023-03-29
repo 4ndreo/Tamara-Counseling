@@ -8,12 +8,11 @@ export default function Footer() {
     <footer id="contacto">
       <Container>
         <h2>Contacto</h2>
-        <p>Recibo consultas. Tu pregunta es bienvenida.</p>
+        <p>Recibo consultas, tu pregunta es bienvenida.</p>
         <p>Destinado a personas en edad adulta y adolescente.</p>
         <ul className="mt-4 mb-4">
           <li className="d-flex tamara-name">
-            <i class="fa-regular fa-id-badge icons-footer"></i>
-            <p>Clr. Tamara C. Acosta</p>
+            <p>Tamara Cuestas Acosta, Counselor</p>
           </li>
           <li className="d-flex">
             <i class="fa-brands fa-whatsapp icons-footer"></i>
