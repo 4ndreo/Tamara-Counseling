@@ -14,9 +14,17 @@
 
 .counseling-info-cont {
   display: flex;
-  gap: 3rem;
   /* align-items: center; */
   /* width: 80%; */
+  background: #ebebeb;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0.7px 1px 3.2px rgba(0, 0, 0, 0.017),
+    1.7px 2.3px 7.6px rgba(0, 0, 0, 0.024),
+    3.3px 4.4px 14.3px rgba(0, 0, 0, 0.03),
+    5.8px 7.8px 25.5px rgba(0, 0, 0, 0.036),
+    10.9px 14.6px 47.6px rgba(0, 0, 0, 0.043),
+    26px 35px 114px rgba(0, 0, 0, 0.06);
 }
 .counseling-img-cont {
   position: relative;
@@ -49,6 +57,7 @@
 
 .temas-counseling-cont {
   padding: 3rem 0;
+  
 }
 .temas-counseling-list {
   flex-wrap: wrap;
@@ -56,9 +65,16 @@
   margin: auto;
   justify-content: center;
   width: 60%;
-}
-.temas-counseling-list {
   font-size: 1.15rem;
+  background: #ebebeb;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0.7px 1px 3.2px rgba(0, 0, 0, 0.017),
+    1.7px 2.3px 7.6px rgba(0, 0, 0, 0.024),
+    3.3px 4.4px 14.3px rgba(0, 0, 0, 0.03),
+    5.8px 7.8px 25.5px rgba(0, 0, 0, 0.036),
+    10.9px 14.6px 47.6px rgba(0, 0, 0, 0.043),
+    26px 35px 114px rgba(0, 0, 0, 0.06);
 }
 
 .pilares-cont .pilares-list {

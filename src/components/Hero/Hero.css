@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../../img/abanicos-hero-desktop-v2.png") no-repeat center
+  background: url("../../img/abanicos-hero.png") no-repeat center
     center;
   background-size: contain;
   color: black;
@@ -41,13 +41,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1320px) {
-  .hero-cont {
-    background: url("../../img/abanicos-hero-laptop.png") no-repeat center
-      center;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 950px) {
   .hero-card-title {
     font-size: 3rem;
