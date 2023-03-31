@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Bell MT";
-  src: url("/public/fonts/Bell/BELL.TTF");
+  font-family: "BellB";
+  src: url("/public/fonts/Bell/BELLB.TTF");
 }
 
 .hero-cont {
@@ -16,12 +16,12 @@
 }
 .hero-yotu {
   background-color: #7ccbe9;
-  font-family: "Bell MT";
+  font-family: "BellB";
 }
 .hero-counseling {
   background-color: #039984;
   color: white;
-  font-family: "Bell MT";
+  font-family: "BellB";
 }
 .hero-sub-1 {
   background-color: #ff5050;

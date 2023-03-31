@@ -2,10 +2,10 @@
   font-family: "Bahnschrift";
   src: url("/public/fonts/Bahnschrift/BAHNSCHRIFT.TTF");
 }
-@font-face {
+/* @font-face {
   font-family: "Bell MT";
   src: url("/public/fonts/Bell/BELL.TTF");
-}
+} */
 
 * {
   margin: 0;
