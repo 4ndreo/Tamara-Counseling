@@ -2,6 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: #cebccc;
+  background: -moz-linear-gradient(left,  #cebccc 0%, #ffffff 33%, #ffffff 66%, #cebccc 100%);
+  background: -webkit-linear-gradient(left,  #cebccc 0%,#ffffff 33%,#ffffff 66%,#cebccc 100%);
+  background: linear-gradient(to right,  #cebccc 0%,#ffffff 33%,#ffffff 66%,#cebccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebccc', endColorstr='#cebccc',GradientType=1 );
+  
+}
+
 h1,
 h2,
 h3,

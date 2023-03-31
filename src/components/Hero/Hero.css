@@ -1,53 +1,62 @@
-
 .hero-cont {
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('../../img/abanicos-hero-desktop-v2.png') no-repeat center center;
-    background-size: contain;
-    color: black;
-    text-align: center;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../img/abanicos-hero-desktop-v2.png") no-repeat center
+    center;
+  background-size: contain;
+  color: black;
+  text-align: center;
 }
 .hero-yotu {
-    background-color: #7ccbe9;
-    font-family: 'Bell MT';
+  background-color: #7ccbe9;
+  font-family: "Bell MT";
 }
 .hero-counseling {
-    background-color: #039984;
-    color: white;
-    font-family: 'Bell MT';
+  background-color: #039984;
+  color: white;
+  font-family: "Bell MT";
 }
 .hero-sub-1 {
-    background-color: #ff5050;
-    display: inline-block;
-    color: white;
-    font-size: 1.5rem;
+  background-color: #ff5050;
+  color: white;
+  width: fit-content;
+  font-size: 1.5rem;
 }
 .hero-sub-2 {
-    color: #c3bd96;
-    font-size: 1.5rem;
+  background-color: white;
+  color: #c3bd96;
+  width: fit-content;
+  font-size: 1.5rem;
 }
 
 .hero-card-title {
-    font-size: 4rem;
+  font-size: 3rem;
+}
+
+.hero-bajada{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 1320px) {
-    .hero-cont {
-        background: url('../../img/abanicos-hero-laptop.png') no-repeat center center;
-        background-size: cover;
-    }
+  .hero-cont {
+    background: url("../../img/abanicos-hero-laptop.png") no-repeat center
+      center;
+    background-size: cover;
   }
-  @media screen and (max-width: 950px) {
-      .hero-card-title {
-          font-size: 3rem;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        .hero-cont {
-            background: url('../../img/abanicos-hero-mobile.png') no-repeat center center;
-            background-size: cover;
-        }
-      }
-  
+}
+@media screen and (max-width: 950px) {
+  .hero-card-title {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-cont {
+    background: url("../../img/abanicos-hero-mobile.png") no-repeat center
+      center;
+    background-size: cover;
+  }
+}
