@@ -3,12 +3,11 @@ html {
 }
 
 body {
-  background: #cebccc;
-  background: -moz-linear-gradient(left,  #cebccc 0%, #ffffff 33%, #ffffff 66%, #cebccc 100%);
-  background: -webkit-linear-gradient(left,  #cebccc 0%,#ffffff 33%,#ffffff 66%,#cebccc 100%);
-  background: linear-gradient(to right,  #cebccc 0%,#ffffff 33%,#ffffff 66%,#cebccc 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebccc', endColorstr='#cebccc',GradientType=1 );
-  
+  background: #ccc5cb;
+  background: -moz-linear-gradient(left,  #ccc5cb 0%, #ffffff 15%, #ffffff 85%, #ccc5cb 100%);
+  background: -webkit-linear-gradient(left,  #ccc5cb 0%,#ffffff 15%,#ffffff 85%,#ccc5cb 100%);
+  background: linear-gradient(to right,  #ccc5cb 0%,#ffffff 15%,#ffffff 85%,#ccc5cb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc5cb', endColorstr='#ccc5cb',GradientType=1 ); 
 }
 
 h1,
