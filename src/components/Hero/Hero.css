@@ -37,6 +37,7 @@
   font-size: 1.5rem;
 }
 
+
 .hero-card-title {
   font-size: 3rem;
 }
@@ -54,13 +55,19 @@
 }
 @media screen and (max-width: 500px) {
   .hero-bajada p{
-    font-size: 0.75rem;
-    /* max-width: 80%; */
+    font-size: 0.875rem;
+    max-width: 90%;
+  }
+  .hero-sub-2 {
+    width: 100%;
   }
   .hero-cont {
     background: url("../../img/Mobile_v2.png") no-repeat center
       center;
     background-size: cover;
     height: 450px;
+  }
+  .hero-guion {
+    display: none;
   }
 }
