@@ -52,7 +52,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .hero-bajada{
+  .hero-bajada p{
     font-size: 1.15rem;  
   }
   .hero-cont {
