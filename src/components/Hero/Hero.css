@@ -52,6 +52,9 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .hero-bajada{
+    font-size: 1.15rem;  
+  }
   .hero-cont {
     background: url("../../img/abanicos-hero-mobile.png") no-repeat center
       center;
