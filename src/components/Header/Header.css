@@ -17,7 +17,7 @@ nav {
   padding-left: 1rem;
   overflow: hidden;
   transition: opacity 0.5s ease, transform 0.3s ease;
-  color: #CEBCCC;
+  color: white;
   display: inline-flex;
 }
 .nav-brand-text:hover {
@@ -31,10 +31,10 @@ nav {
   transition: background ease-in-out 0.3s;
 }
 .nav-top {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #CEBCCC;
 }
 .nav-top ~ .nav-cont .nav-brand-icon {
-  background: url("../../img/icons/hand-fan-violet-gray.svg") no-repeat center left;
+  background: url("../../img/icons/hand-fan-white.svg") no-repeat center left;
   background-size: contain;
   padding: 1.5rem;
 }
@@ -45,11 +45,11 @@ nav {
 }
 
 .nav-scrolled {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #CEBCCC;
 }
 
 .nav-scrolled ~ .nav-cont .nav-brand-icon {
-  background: url("../../img/icons/hand-fan-violet-gray.svg") no-repeat center left;
+  background: url("../../img/icons/hand-fan-white.svg") no-repeat center left;
   background-size: contain;
   padding: 1.5rem;
 }
@@ -57,11 +57,11 @@ nav {
   transition-delay: 0.5s;
 }
 .nav-scrolled ~ .nav-cont .nav-items li a {
-  color: black;
+  color: #fff;
 }
 
 .nav-top ~ .nav-cont .nav-items li a {
-  color: black;
+  color: #fff;
 }
 
 .nav-cont {
@@ -89,14 +89,15 @@ nav {
 }
 .nav-items li a {
   transition: color 0.15s ease-in-out;
+  
 }
 .nav-cont .nav-items li a:hover {
-  border-bottom: 3px solid #CEBCCC;
-  color: #CEBCCC;
+  border-bottom: 3px solid #99FFEE;
+  color: #99FFEE;
   padding-bottom: 3px;
 }
 .nav-cont .nav-items li a.active {
-  color: #CEBCCC;
+  color: #99FFEE;
 }
 
 #mobile {
