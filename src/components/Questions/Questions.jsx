@@ -3,6 +3,7 @@ import pizarraPared from "../../img/pizarra-pared.jpeg";
 import pizarraCorcho from "../../img/pizarra-corcho.png";
 import pizarraChica from "../../img/pizarra-chica.png";
 import pizarraGrande from "../../img/pizarra-grande.png";
+import pizarraHor from "../../img/pizarra-hor.png";
 
 import React from "react";
 
@@ -25,7 +26,7 @@ export default function Questions() {
         <div className="questions-img-cont pizarra-sticky-cont">
           <img
             className="questions-img pizarra-sticky"
-            src={pizarraGrande}
+            src={pizarraHor}
             alt=""
           />
         </div>
