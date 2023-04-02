@@ -93,7 +93,7 @@ export default function Counseling() {
         <ul className="mb-4">
           <li>
             <span className="negritas">
-              La formación académica teórico-vivencial:
+              Formación académica teórico-vivencial:
             </span>{" "}
             abordamos el potencial humano con sus aspectos biológicos,
             psíquicos, sociológicos y espirituales. Con la responsabilidad de
@@ -103,10 +103,10 @@ export default function Counseling() {
             escucha como counselors.
           </li>
           <li>
-            <span className="negritas">El proceso personal</span>
+            <span className="negritas">Proceso personal</span>
           </li>
           <li>
-            <span className="negritas">La supervisión del trabajo</span>
+            <span className="negritas">Supervisión del trabajo</span>
           </li>
         </ul>
         <p>
