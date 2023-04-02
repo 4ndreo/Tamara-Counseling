@@ -18,6 +18,14 @@
   gap: 1rem;
 }
 
+.flor {
+  max-width: 80%;
+  margin: auto;
+}
+.trebol  {
+  object-fit: cover;
+}
+
 .work-img {
   width: 100%;
   z-index: 3;
