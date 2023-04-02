@@ -24,6 +24,13 @@ export default function Questions() {
           />
         </div> */}
         <div className="questions-img-cont pizarra-sticky-cont">
+          {/* <picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(max-width:500px)" srcset={pizarraGrande}>
+  <img className="questions-img pizarra-sticky"
+            src={pizarraHor}
+            alt="" />
+            </picture> */}
           <img
             className="questions-img pizarra-sticky"
             src={pizarraHor}
