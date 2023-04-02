@@ -52,22 +52,44 @@
   .hero-card-title {
     font-size: 2.25rem;
   }
-}
-@media screen and (max-width: 500px) {
-  .hero-bajada p{
-    font-size: 0.95rem;
-    /* max-width: 90%; */
-  }
-  .hero-sub-2 {
-    width: 100%;
-  }
   .hero-cont {
     background: url("../../img/Mobile_v2.png") no-repeat center
       center;
     background-size: cover;
     height: 450px;
   }
+  .hero-bajada p{
+    font-size: 0.95rem;
+  }
+  .hero-sub-2 {
+    width: 100%;
+  }
   .hero-guion {
     display: none;
   }
+  .hero-enfoque {
+    display: block;
+  }
 }
+/* @media screen and (max-width: 500px) {
+  .hero-cont {
+    background: url("../../img/Mobile_v2.png") no-repeat center
+      center;
+    background-size: cover;
+    height: 450px;
+  }
+  .hero-bajada p{
+    font-size: 0.95rem;
+    max-width: 90%;
+  }
+  .hero-sub-2 {
+    width: 100%;
+  }
+  .hero-guion {
+    display: none;
+  }
+  .hero-enfoque {
+    display: block;
+  }
+}
+*/
