@@ -10,20 +10,21 @@ export default function Footer() {
         <h2>Contacto</h2>
         <p>Recibo consultas, tu pregunta es bienvenida.</p>
         <p>Destinado a personas en edad adulta y adolescente.</p>
-        <ul className="mt-4 mb-4">
+        <ul className="mt-4 mb-4 d-flex justify-content-between">
           <li className="d-flex tamara-name">
-            <p>Tamara Cuestas Acosta, Counselor</p>
+            <i class="fa-regular fa-id-badge icons-footer"></i>
+            <p className="ms-2">Tamara Cuestas Acosta, Counselor</p>
           </li>
           <li className="d-flex">
-            <i class="fa-brands fa-whatsapp icons-footer"></i>
             <a href="https://wa.me/+5491157406006" target="blank">
-              +54 911 5740-6006
+              <i class="fa-brands fa-whatsapp icons-footer"></i>
+              <span className="ms-2">+54 911 5740-6006</span>
             </a>
           </li>
           <li className="d-flex">
-            <i class="fa-regular fa-envelope icons-footer"></i>
             <a href="mailto:yo.tu.counseling@gmail.com">
-              yo.tu.counseling@gmail.com
+              <i class="fa-regular fa-envelope icons-footer"></i>
+              <span className="ms-2">yo.tu.counseling@gmail.com</span>
             </a>
           </li>
         </ul>

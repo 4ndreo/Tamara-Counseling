@@ -8,27 +8,25 @@ footer {
 footer ul {
   padding: 0;
   display: flex;
-  /* justify-content: space-between; */
-  gap: 25%;
+  justify-content: space-between;
+  /* gap: 25%; */
 }
 
 footer h2 {
   color: #CEBCCC;
 }
 
-footer a {
+footer ul a, footer ul p {
   color: black;
-  display: flex;
+  /* display: flex; */
   transition: color, transform 0.15s ease-in-out;
-  position: absolute;
-  margin-left: 2rem;
+  /* position: absolute; */
+  /* margin-left: 1rem; */
+  margin-bottom: 0;
 }
 
-footer .tamara-name p{
-  position: absolute;
-  display: inline-block;
-  /* margin-left: 2rem; */
-  
+footer ul a span {
+  vertical-align: text-bottom;
 }
 
 footer a:hover {

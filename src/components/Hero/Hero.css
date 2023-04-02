@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../../img/v5.png") no-repeat center
+  background: url("../../img/abanicos-hero.png") no-repeat center
     center;
   background-size: contain;
   color: black;
@@ -48,12 +48,21 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1400px) {
+  .hero-cont {
+    background: url("../../img/abanicos-hero.png") no-repeat center
+      center;
+    background-size: cover;
+    height: 450px;
+  }
+
+}
 @media screen and (max-width: 950px) {
   .hero-card-title {
     font-size: 2.25rem;
   }
   .hero-cont {
-    background: url("../../img/Mobile_v2.png") no-repeat center
+    background: url("../../img/abanicos-hero-mobile.png") no-repeat center
       center;
     background-size: cover;
     height: 450px;
