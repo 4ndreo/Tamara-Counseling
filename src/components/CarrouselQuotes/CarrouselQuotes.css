@@ -9,6 +9,10 @@
 .clase-test {
   width: 100%;
 }
+.carousel.container {
+  max-height: 500px;
+}
+
 .slide-cont {
   height: 100vw;
   max-height: 600px;
