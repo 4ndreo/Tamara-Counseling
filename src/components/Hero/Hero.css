@@ -55,8 +55,8 @@
 }
 @media screen and (max-width: 500px) {
   .hero-bajada p{
-    font-size: 0.875rem;
-    max-width: 90%;
+    font-size: 0.95rem;
+    /* max-width: 90%; */
   }
   .hero-sub-2 {
     width: 100%;
