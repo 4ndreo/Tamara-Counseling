@@ -48,8 +48,20 @@
     justify-content: center;
     gap: 2rem;
   }
-
+  
   .collage .img-text {
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .flor {
+    max-width: 100%;
+    margin: auto;
+  }
+  .trebol  {
+    margin: auto;
+    max-height: 300px;
+    width: 70%;
   }
 }
