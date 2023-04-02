@@ -1,6 +1,7 @@
 import "./Work.css";
 // import RandomWomanImg from "../../img/random-woman.jpg";
 import FlorImg from "../../img/Flor.png";
+import Florv2Img from "../../img/Flor-v2.png";
 import TrebolImg from "../../img/Trebol.png";
 
 import React from "react";
@@ -33,7 +34,7 @@ export default function Work() {
         <div className="collage">
           <img className="work-img trebol" src={TrebolImg} alt="" />
           <div className="img-text">
-            <img className="work-img flor" src={FlorImg} alt="" />
+            <img className="work-img flor" src={Florv2Img} alt="" />
             <p>
               Promoviendo el autoconocimiento y el desarrollo de la persona,{" "}
               <span className="negritas">
