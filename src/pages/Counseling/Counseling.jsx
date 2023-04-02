@@ -74,16 +74,16 @@ export default function Counseling() {
       </div>
       <section className="temas-counseling-cont">
         <h2 className="text-center">Temas que aborda el counseling</h2>
-        <ul className="temas-counseling-list d-flex flex-row">
-          <li className="pe-1">Etapas vitales -</li>
-          <li className="pe-1">Identidad - </li>
-          <li className="pe-1">Adolescencia - </li>
-          <li className="pe-1">Pareja y familia - </li>
-          <li className="pe-1">Educación - </li>
-          <li className="pe-1">Adicciones - </li>
-          <li className="pe-1">Desarrollo personal - </li>
-          <li className="pe-1">Sexualidad - </li>
-          <li className="pe-1">Espiritualidad - </li>
+        <ul className="temas-counseling-list d-flex">
+          <li className="pe-1">Etapas vitales<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Identidad<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Adolescencia<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Pareja y familia<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Educación<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Adicciones<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Desarrollo personal<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Sexualidad<span className="counseling-guion"> - </span></li>
+          <li className="pe-1">Espiritualidad<span className="counseling-guion"> - </span></li>
           <li>Laboral</li>
         </ul>
       </section>
