@@ -12,7 +12,7 @@ export default function Work() {
       {/* <div className="work-img-cont">
         </div> */}
       <div className="work-text-cont">
-        <h2 className="work-card-title h2-title">Acomapañamiento y orientación psicológica</h2>
+        <h2 className="work-card-title h2-title">Acomapañamiento y Orientación psicológica</h2>
         <p>
           Por el hecho de vivir,{" "}
           <span className="negritas">
