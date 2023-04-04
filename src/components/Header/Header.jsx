@@ -22,7 +22,7 @@ export default function Header(location) {
   }
 
   return (
-    <nav>
+    <nav className={clicked ? "nav-open" : "nav-closed"}>
       <div
         className={location.location === '/' && !scrolled ? "nav-bg nav-top" : "nav-bg nav-scrolled"}
       ></div>
@@ -51,13 +51,13 @@ export default function Header(location) {
             location.location === '/' && !scrolled ?
             <i
               id="bar"
-              className={clicked ? "fas fa-times" : "fas fa-bars color-black"}
+              className={clicked ? "fas fa-times" : "fas fa-bars color-white"}
               onClick={handleClick}
             ></i>
             : 
             <i
               id="bar"
-              className={clicked ? "fas fa-times" : "fas fa-bars"}
+              className={clicked ? "fas fa-times" : "fas fa-bars color-white"}
               onClick={handleClick}
             ></i>
           }
