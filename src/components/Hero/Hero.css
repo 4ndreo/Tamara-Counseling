@@ -49,13 +49,14 @@
 
 @media screen and (max-width: 1400px) {
   .hero-cont {
-    background: url("../../img/v6.png") no-repeat center
+    background: url("../../img/v7.png") no-repeat center
       center;
     background-size: cover;
     height: 550px;
     /* height: 450px; */
     width: 90%;
     margin: auto;
+    margin-top: 70px;
   }
 
 }
