@@ -41,8 +41,7 @@ footer a:hover {
 }
 .footer-consultas {
   background-color: #99FFEE;
-  /* color: #898046; */
-  color: black;
+  color: #898046;
   width: fit-content;
 }
 .footer-destinado {
