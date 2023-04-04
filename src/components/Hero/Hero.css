@@ -21,7 +21,7 @@
   font-family: "BellB";
 }
 .hero-counseling {
-  background-color: #D0B2FF;
+  background-color: rgba(205, 198, 204, 1);
   color: #99FFEE;
   font-family: "BellB";
 }
@@ -73,6 +73,9 @@
   .hero-bajada p{
     font-size: 0.95rem;
   }
+  .hero-sub-1 {
+    font-size: 1.25rem !important;
+  }
   .hero-sub-2 {
     min-width: fit-content;
     width: 70%;
@@ -82,6 +85,10 @@
   }
   .hero-enfoque {
     display: block;
+  }
+  .sub-1-p2 {
+    display: block;
+    
   }
 }
 /* @media screen and (max-width: 500px) {

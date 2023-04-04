@@ -8,8 +8,8 @@ export default function Footer() {
     <footer id="contacto">
       <Container>
         <h2>Contacto</h2>
-        <p>Recibo consultas, tu pregunta es bienvenida.</p>
-        <p>Destinado a personas en edad adulta y adolescente.</p>
+        <p className="footer-consultas">Recibo consultas, tu pregunta es bienvenida.</p>
+        <p className="footer-destinado">Destinado a personas en edad adulta y adolescente.</p>
         <ul className="mt-4 mb-4 d-flex justify-content-between">
           <li className="d-flex tamara-name">
             <i class="fa-regular fa-id-badge icons-footer"></i>

@@ -31,13 +31,23 @@ footer ul a span {
 
 footer a:hover {
   transform: translateY(-3px);
-  border-bottom: 3px solid #CEBCCC;
-  color: #CEBCCC;
+  border-bottom: 3px solid #99FFEE;
+  color: #99FFEE;
   padding-bottom: 3px;
 }
 
 .icons-footer {
   font-size: 1.5rem;
+}
+.footer-consultas {
+  background-color: #99FFEE;
+  color: #898046;
+  width: fit-content;
+}
+.footer-destinado {
+  background-color: rgba(205, 198, 204, 1);
+  color: #99FFEE;
+  width: fit-content;
 }
 
 @media screen and (max-width: 950px) {

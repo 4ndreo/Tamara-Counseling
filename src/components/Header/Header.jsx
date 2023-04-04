@@ -30,7 +30,7 @@ export default function Header(location) {
         <div className="nav-brand">
           <i className="nav-brand-icon"></i>
           <a href="/" className="negritas nav-brand-text">
-            YO-TU Counseling
+            Yo-Tú Counseling
           </a>
         </div>
         <div className="nav-items-cont">
