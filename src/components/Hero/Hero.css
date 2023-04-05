@@ -2,6 +2,10 @@
   font-family: "BellB";
   src: url("/public/fonts/Bell/BELLB.TTF");
 }
+@font-face {
+  font-family: "Gabriola";
+  src: url("/public/fonts/Gabriola/Gabriola.ttf");
+}
 
 .hero-cont {
   height: 550px;
@@ -21,13 +25,15 @@
   font-family: "BellB";
 }
 .hero-counseling {
-  background-color: rgba(205, 198, 204, 1);
+  background-color: #cdc6cc;
   color: #99FFEE;
   font-family: "BellB";
 }
 .hero-sub-1 {
   width: fit-content;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: "Gabriola";
+  color: #898046;
 }
 .hero-sub-2 {
   background-color: #8b8b89;
