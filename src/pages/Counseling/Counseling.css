@@ -94,6 +94,11 @@
   background-size: 1.5rem;
   padding-left: 2rem;
 }
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .counseling-guion.pyf, .counseling-guion.sexualidad {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 950px) {
   .counseling-cont h2 {

@@ -23,7 +23,7 @@ export default function Counseling() {
             <span className="negritas">
               crea condiciones que faciltan la expresion de la persona
             </span>
-            . Trabajando con el vinculo humano, en un espacio de consulta.
+            . Trabajando con el vínculo humano, en un espacio de consulta.
             Facilitando la toma de contacto con el presente, con la vivencia del
             momento.
           </p>
@@ -39,7 +39,7 @@ export default function Counseling() {
             sus herramientas personales;{" "}
             <span className="negritas">
               desarrollar y desplegar sus capacidades; ampliar las posibilidades
-              de elección; tomar mejores desiciones; contactar con sus
+              de elección; tomar mejores decisiones; contactar con sus
               emociones, sentimientos, pensamientos y ser su propia guía;
               resolver con mayor solvencia ciertas dificultades u obstáculos;
               empoderarse de si mísma; sentirse funcionando plenamente; mejorar
@@ -67,7 +67,7 @@ export default function Counseling() {
             <span className="negritas">
               posibilidad de Resignificar situaciones pasadas
             </span>
-            , es decir de percibir “que me sucede hoy con eso que pasó”, y darle
+            , es decir, de percibir “que me sucede hoy con eso que pasó”, y darle
             un nuevo sentido, y avanzar más livianos por la vida.
           </p>
           <p>
@@ -108,7 +108,7 @@ export default function Counseling() {
             Adolescencia<span className="counseling-guion"> - </span>
           </li>
           <li className="pe-1">
-            Pareja y familia<span className="counseling-guion"> - </span>
+            Pareja y familia<span className="counseling-guion pyf"> - </span>
           </li>
           <li className="pe-1">
             Educación<span className="counseling-guion"> - </span>
@@ -120,7 +120,7 @@ export default function Counseling() {
             Desarrollo personal<span className="counseling-guion"> - </span>
           </li>
           <li className="pe-1">
-            Sexualidad<span className="counseling-guion"> - </span>
+            Sexualidad<span className="counseling-guion sexualidad"> - </span>
           </li>
           <li className="pe-1">
             Espiritualidad<span className="counseling-guion"> - </span>
@@ -136,7 +136,7 @@ export default function Counseling() {
               <span className="negritas">
                 Formación académica teórico-vivencial:
               </span>{" "}
-              abordamos el potencial humano con sus aspectos biológicos,
+              en la que abordamos el potencial humano con sus aspectos biológicos,
               psíquicos, sociológicos y espirituales. Con la responsabilidad de
               una formación continua en todo lo que contribuya a nuestro
               despliegue personal de modo creativo, a enriquecer nuestra
