@@ -31,9 +31,10 @@
 }
 .hero-sub-1 {
   width: fit-content;
-  font-size: 2rem;
-  font-family: "Gabriola";
-  color: #898046;
+  font-size: 1.5rem;
+  font-family: "BellB";
+  color: #cdc6cc;
+  
 }
 .hero-sub-2 {
   background-color: #8b8b89;
