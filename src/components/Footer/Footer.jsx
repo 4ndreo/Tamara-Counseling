@@ -27,6 +27,10 @@ export default function Footer() {
               <span className="ms-2">yo.tu.counseling@gmail.com</span>
             </a>
           </li>
+          <li className="d-flex">
+              <i class="fa-solid fa-globe icons-footer"></i>
+              <span className="ms-2">Atención presencial y virtual</span>
+          </li>
         </ul>
       </Container>
     </footer>

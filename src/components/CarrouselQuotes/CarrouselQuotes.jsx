@@ -185,6 +185,8 @@ export default function CarrouselQuotes() {
           </div>
         </swiper-slide>
       </swiper-container> */}
+      
+      <a href="/counseling" className="btn btn-saber-mas">+ Saber más</a>
     </section>
   );
 }

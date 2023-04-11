@@ -60,6 +60,7 @@ export default function Header(location) {
               className={clicked ? "fas fa-times" : "fas fa-bars color-white"}
               onClick={handleClick}
             ></i>
+            
           }
         </div>
       </Container>
